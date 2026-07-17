@@ -1,0 +1,58 @@
+import type { Musician } from '../../types'
+
+export const mockMusicians: Musician[] = [
+  {
+    id: 'm1',
+    name: 'Kelwin Esechiel',
+    email: 'kelwin@igreja.com',
+    phone: '5511999990001',
+    instruments: ['Violão', 'Vocal'],
+    photoUrl: null,
+    active: true,
+  },
+  {
+    id: 'm2',
+    name: 'Ana Beatriz Souza',
+    email: 'ana@igreja.com',
+    phone: '5511999990002',
+    instruments: ['Vocal'],
+    photoUrl: null,
+    active: true,
+  },
+  {
+    id: 'm3',
+    name: 'Rafael Lima',
+    email: 'rafael@igreja.com',
+    phone: '5511999990003',
+    instruments: ['Bateria'],
+    photoUrl: null,
+    active: true,
+  },
+  {
+    id: 'm4',
+    name: 'Juliana Ferreira',
+    email: 'juliana@igreja.com',
+    phone: '5511999990004',
+    instruments: ['Teclado', 'Vocal'],
+    photoUrl: null,
+    active: true,
+  },
+  {
+    id: 'm5',
+    name: 'Pedro Henrique',
+    email: 'pedro@igreja.com',
+    phone: '5511999990005',
+    instruments: ['Contrabaixo', 'Guitarra'],
+    photoUrl: null,
+    active: true,
+  },
+  {
+    id: 'm6',
+    name: 'Camila Rodrigues',
+    email: 'camila@igreja.com',
+    phone: '5511999990006',
+    instruments: ['Vocal'],
+    photoUrl: null,
+    active: false,
+  },
+]
